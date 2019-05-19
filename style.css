@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.post {
+    background-color: #def;
+    min-height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.post .body {
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #bdf;
+    min-height: 80px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 380px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment .name {
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttons div {
+    display: inline-block;
+    width: 49%;
+    line-height: 2em;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.buttons div:hover {
+    background-color: #fff;
+}
+
+.liked {
+    color: #07f;
+    font-weight: bold;
+}
+
+.new-comment {
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.comment-name {
+    width: 100%;
+    font-size: 1.5em;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.comment-input {
+    resize: none;
+    width: 100%;
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.add-comment {
+    display: inline-block;
+    text-align: center;
+    /* width: 100%; */
+    background: #5af;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.add-comment:hover {
+    background: #7cf;
+}
